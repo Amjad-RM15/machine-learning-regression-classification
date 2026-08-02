@@ -1,2 +1,72 @@
-# machine-learning-regression-classification
-University machine learning project covering CO2 emissions analysis, regression models, loan approval classification, model evaluation, and cross-validation.
+# Machine Learning Project: Regression and Classification
+
+## Overview
+
+This repository contains a university team project that applies machine learning techniques to two different problems:
+
+1. Predicting vehicle CO₂ emissions using regression models.
+2. Predicting loan approval status using classification models.
+
+The project covers data exploration, visualization, preprocessing, model training, evaluation, and validation.
+
+## CO₂ Emissions Analysis and Regression
+
+The first part analyzes a vehicle dataset containing information about engine size, cylinders, fuel consumption, fuel type, and CO₂ emissions.
+
+The main tasks include:
+
+- Exploratory Data Analysis
+- Data visualization using scatter plots, pair plots, and correlation heatmaps
+- Multiple Linear Regression
+- Forward Feature Selection
+- Random Forest Regression
+- Model evaluation using Mean Squared Error and R² score
+
+The analysis shows that fuel consumption, engine size, and the number of cylinders are strongly related to CO₂ emissions.
+
+## Loan Approval Classification
+
+The second part uses loan application data to predict whether a loan will be approved or rejected.
+
+The following classification models were implemented:
+
+- Decision Tree
+- Logistic Regression
+- Naive Bayes
+- Random Forest
+- Support Vector Machine
+
+The models were evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Classification Reports
+- Confusion Matrices
+- Hold-out Validation
+- 10-Fold Cross-Validation
+
+Random Forest was selected as the final classification model, achieving approximately 99% accuracy in the project results.
+
+## Technologies
+
+- Python
+- Jupyter Notebook
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- scikit-learn
+- Statsmodels
+
+## Repository Files
+
+- [`ML Project.ipynb`](./ML%20Project.ipynb) — Complete code, visualizations, models, and saved outputs.
+- [`Machine Learning Project.pdf`](./Machine%20Learning%20Project.pdf) — Full project report and results.
+
+## Note
+
+The original datasets are not included in this repository. However, the Jupyter Notebook contains the saved outputs, visualizations, and model evaluation results from the original execution.
+
+This project was developed as a university team project for a Machine Learning course.
