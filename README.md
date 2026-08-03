@@ -62,8 +62,7 @@ Random Forest was selected as the final classification model, achieving approxim
 
 ## Repository Files
 
-- [`ML Project.ipynb`](./ML%20Project.ipynb) — Complete code, visualizations, models, and saved outputs.
-- [`Machine Learning Project.pdf`](./Machine%20Learning%20Project.pdf) — Full project report and results.
+- [`ML_Project.ipynb`](./ML_Project.ipynb) — Complete code, data preprocessing, visualizations, regression models, forward feature selection, classification models, and saved outputs.
 - [`CO2 Emissions4.csv`](./CO2%20Emissions4.csv) — Vehicle specifications, fuel consumption, and CO₂ emissions dataset.
 - [`loan_approval_dataset4.csv`](./loan_approval_dataset4.csv) — Loan application and approval classification dataset.
 
